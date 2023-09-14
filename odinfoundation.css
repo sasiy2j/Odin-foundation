@@ -1,0 +1,264 @@
+
+
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', arial;
+
+    text-align: center;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6fa;
+}
+
+.navbar{
+
+display: flex;
+
+justify-content: space-between;
+
+
+}
+
+.hero-image img{
+
+
+    object-fit: cover;
+
+    border-radius: 30px;
+
+    height:300px ;
+
+    width:300px ;
+
+    margin-bottom: 30px;
+ 
+    
+
+    
+
+}
+
+.flex{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 90px;
+}
+
+.hero-image{
+
+    margin-right: 150px;
+}
+
+.header-link a{
+
+    margin-right:100px;
+
+    text-decoration: none;
+    font-weight: bold;     /* Make the text bold */
+  font-size: 18px;
+
+  color: black;
+  object-position: 0%;
+
+    
+}
+
+.bx.navbar{
+
+    margin-top: 30px;
+}
+
+.header-link{
+
+    margin-right: 40px;
+
+    display: flex;
+
+}
+
+.para h1 {
+    font-size: 28px; /* Adjust the font size as needed */
+    color: #333; /* Heading text color */
+    margin-bottom: 10px; /* Add space below the heading */
+  }
+
+  .para p {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #666; /* Paragraph text color */
+    line-height: 1.4;
+
+    margin-left: 20px;
+
+    margin-top: 30px;
+
+}
+
+.hero-1 button{
+
+    margin-top: 20px;
+    padding: 5px 10px; 
+    border: none;
+    border-radius: 5px;
+
+    background-color: #3457D5;
+
+    color: white;
+
+}
+
+.types img{
+
+height: 230px;
+
+width: 230px;
+}
+
+.types{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 70px;
+}
+
+.dobsonian{
+    margin-left: 20px;
+}
+
+.newtonian{
+
+    margin-right: 20px;
+}
+
+
+
+.telescope{
+
+    background-image: url('https://images.newscientist.com/wp-content/uploads/2023/01/11185604/SEI_139957244.jpg?crop=16:9,smart&width=1200&height=675&upscale=true');
+margin-top: 1px;
+
+background-size: contain;}
+
+.types-of-telescopes .header-text {
+    margin-top: 20px; /* Adjust the value to your desired spacing */
+    display: inline-block; /* Make sure the span is treated as an inline block */
+
+    color: #FFFFFF;
+  }
+.types{
+
+    color: black;
+
+
+font-weight: bolder;
+
+color: black
+
+}
+
+.type-1 img {
+    border-radius: 10px; /* Makes the image round */
+
+    border: 3px solid brown;  }
+
+    .quote{
+
+        display: flex;
+
+        flex-direction: column;
+        background-color: #E5E7EB;
+    padding: 0 200px;
+    }
+
+    .quote p {
+        font-size: 30px;
+        color: #1F2937;
+        font-style: italic;
+        font-weight: lighter;
+        font-family: 'Roboto', arial;
+
+        margin-top: 60px;
+    }
+
+    
+.quote b{
+    
+    font-family: 'Roboto', arial;
+    text-align: right;
+
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+
+
+
+  .bottom{
+
+    margin-top: 30px;
+
+    padding-top: 10px;
+
+    background-color: #3882F6;
+
+    width: 500px;
+
+    border-radius: 30px;
+
+    margin-left: 430px;
+
+    padding-bottom: -80px;
+
+    height: 100px;
+
+  }
+
+  .button button{
+
+    color: black;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: palegreen;
+    padding: 5px 25px;
+    font-size: 15px;
+
+    margin-top: 20px;
+
+
+  }
+
+  .cod{
+
+    color: #fff;
+  }
+  
+  .footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+
+    margin-top: 60px;
+
+    margin-bottom: -30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.header-logo img{
+
+    height:40px;
+
+    width: 40px;
+
+}
